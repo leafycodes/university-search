@@ -1,6 +1,14 @@
 # University Search App  
 
-A simple web application that fetches and displays universities by name or country using the [HipoLabs Universities API](https://github.com/Hipo/university-domains-list-api).  
+A simple web application that fetches and displays universities by name or country using the [HipoLabs Universities API](https://github.com/Hipo/university-domains-list-api). 
+
+## API Note
+
+The HipoLabs API uses `http://`, which may cause network errors when testing on HTTPS environments (like GitHub Pages). For local development, most browsers allow mixed content, but for production, consider:
+
+- Using a proxy service
+- Requesting HTTPS support from the API provider
+- Running a local backend to fetch data
 
 ## Features  
 - 🔍 **Search by university name** or **country**  
