@@ -2,8 +2,8 @@ const btn = document.querySelector('button');
 const btn2 = document.querySelector('#button2');
 const clear = document.querySelector('#clear');
 let ul = document.querySelector('ul');
-const url = "https://universities.hipolabs.com/search?name=";
-const url2 = "https://universities.hipolabs.com/search?country=";
+const url = "http://universities.hipolabs.com/search?name=";
+const url2 = "http://universities.hipolabs.com/search?country=";
 
 btn.addEventListener('click', async (event) => {
     try {
