@@ -10,6 +10,17 @@ The HipoLabs API uses `http://`, which may cause network errors when testing on 
 - Requesting HTTPS support from the API provider
 - Running a local backend to fetch data
 
+## Temporary Workaround (Not Recommended for Production)
+
+For quick testing during development only:
+1. Visit the deployed page (e.g., [University Search](https://leafycodes.github.io/university-search/))
+2. Click the 🔒 **lock icon** in your browser's address bar
+3. Select **"Site settings"** → **"Permissions"**
+4. Under **"Insecure content"**, change to **"Allow"** (Chrome) or equivalent in other browsers
+5. Refresh the page
+
+⚠️ **Warning**: This exposes you to potential security risks. Only use this temporarily and revert when done testing.
+
 ## Features  
 - 🔍 **Search by university name** or **country**  
 - 🚦 **Input validation** (shows errors for empty queries)  
